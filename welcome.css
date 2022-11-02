@@ -612,7 +612,8 @@ footer {
     }
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1200px) {
+    
     button {
         position: relative;
         left: 400px;
@@ -621,8 +622,6 @@ footer {
         position: relative;
         left: 200px;
 }
-
-@media (max-width: 1200px) {
 
     .wrapper nav .categorys {
         max-width: 600px;
@@ -646,7 +645,6 @@ footer {
         -webkit-box-direction: normal;
         flex-direction: column;
     }
-}
 
 
 @media (max-width: 710px) {
@@ -707,3 +705,4 @@ footer {
 }
 
 /* @ end */
+}
