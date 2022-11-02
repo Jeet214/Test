@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wecome Page</title>
+    <link rel="stylesheet" href="welcome.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet"/>
+  <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+  <style>
+body {
+  background-image: url("PurpleSkyMoon.jpeg");
+  filter: blur(0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <span id="user" class="message">Welcome, < email-id ></Email-id></span>
+  <button class="btn btn-danger" id="LogOut" onclick="logout()">Logout</button>
+    </div>
+
+  <div class="wrapper">
+        <div class="home" id="home">
+            <div class="home-text">
+                <h1 id="botname">TinTz-Bot</h1>
+                <h3 style="margin-left: 0;">why should you invite my bot?</h3>
+                <p class="bot-description">My TinTz-Bot has everything that you can find in other popular bots.</p>
+                </nav>
+                <a href="https://discord.com/oauth2/authorize?client_id=955187377150771301&permissions=8&scope=bot%20applications.commands " class="home-btn">Add to discord</a>
+            </div>
+            <div class="home-img">
+                <img src="https://media.discordapp.net/attachments/965059044010229810/969581762428686376/20220429_084944.png"
+                    alt="">
+            </div>
+        </div>
+    </div>
+  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+    
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+    <script src="firebase.js"></script>
+    <script src="welcome.js"></script>
+</body>
+</html>
