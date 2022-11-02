@@ -617,6 +617,10 @@ footer {
         position: relative;
         left: 400px;
 }
+    .message {
+        position: relative;
+        left: 200px;
+}
 
 @media (max-width: 1200px) {
 
@@ -703,4 +707,3 @@ footer {
 }
 
 /* @ end */
-}
