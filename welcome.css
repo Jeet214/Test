@@ -629,6 +629,12 @@ footer {
         padding: 7px 15px;
     }
 }
+/* Media Width: 1366 Start */
+
+@media all and (max-width: 1366px) {
+  button {
+      position: relative;
+      left: 980px;
 
 @media all and (max-width:900px) {
     .features-grid {
