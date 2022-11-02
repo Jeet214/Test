@@ -615,7 +615,7 @@ footer {
 @media all and (max-width: 1366px) {
     button {
         position: relative;
-        left: 980px;
+        left: 900px;
 }
 
 @media (max-width: 1200px) {
